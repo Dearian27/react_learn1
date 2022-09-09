@@ -1,0 +1,15 @@
+
+
+
+
+html[data-theme='dark']{
+  --background-color: #27282b;
+  --text-color: white;
+  --border-color: #00adad;
+}
+
+html[data-theme='light']{
+  --background-color: #fff;
+  --text-color: black;
+  --border-color: #008080;
+}

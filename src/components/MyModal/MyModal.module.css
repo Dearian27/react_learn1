@@ -5,13 +5,19 @@
   right: 0;
   left: 0;
   display: none;
-  background: rgba(0, 0, 0, 0.3);
+  background-color: var(--background-color) 0.3;
+  
+  color: var(--text-color);
+
 }
 .MyModalContent {
+  opacity: 1;
   padding: 25px;
-  background-color: #fff;
+  background-color: var(--background-color);
   border-radius: 16px;
   min-width: 250px;
+  color: var(--text-color);
+  
 }
 .myModal.active {
   display: flex !important;
